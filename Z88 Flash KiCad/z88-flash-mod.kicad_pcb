@@ -253,7 +253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -279,7 +279,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/5a4fb3e9-a83e-495d-ab5c-02bbd9fffcf3")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -452,7 +452,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -478,7 +478,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/adf4d18d-ecfa-413f-8795-40498b3b5484")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -653,7 +653,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C4008.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "473cc034-631c-419d-a21a-e71ef66d60ad")
@@ -664,8 +664,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 270)
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30332f58-07e2-4cd9-8774-0d826a57bbf9")
@@ -678,7 +678,7 @@
 		)
 		(property ki_fp_filters "DIP*W15.24mm*")
 		(path "/fc373e6f-3652-4270-87e8-3a6f9c8aa49d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1270,7 +1270,7 @@
 		)
 		(property ki_fp_filters "DIP?16*")
 		(path "/e23baf19-1e98-46db-bf71-4d89e5186f1a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1615,7 +1615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1641,7 +1641,7 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/c44b1326-c47a-41b8-ab28-7e90a7dc1593")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1863,7 +1863,7 @@
 		)
 		(property ki_fp_filters "TSOP*18.*12*P0.5mm*")
 		(path "/b969f469-0cd2-4b84-bb69-01963651ff3d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Value" "512k"
+		(property "Value" "512KB RAM"
 			(at 0 1.9 90)
 			(layer "F.SilkS")
 			(uuid "035e7232-651e-475a-946e-f1fd037a2b84")
@@ -2528,7 +2528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2540,7 +2540,7 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, open"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2552,7 +2552,10 @@
 				)
 			)
 		)
-		(sheetfile "connector.kicad_sch")
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/c332e045-b3cf-475d-9c1e-394b614d603a")
+		(sheetname "/")
+		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start 1.4 -1)
@@ -2682,7 +2685,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2708,7 +2711,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/37f18e0f-e767-42a2-88da-37af490c776a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2882,7 +2885,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2908,7 +2911,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e7f88861-4bd3-4410-9fd2-224b794107bd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3080,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3106,7 +3109,7 @@
 		)
 		(property ki_fp_filters "Connector*:*2x??x*mm* Connector*:*2x???Pitch*")
 		(path "/00000000-0000-0000-0000-0000618afc8f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3848,7 +3851,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3862,7 +3865,7 @@
 		)
 		(property ki_fp_filters "DIP*W15.24mm*")
 		(path "/80ec0671-e93e-4a9d-b3a1-ccf691304042")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "z88-flash-mod.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12560,9 +12563,9 @@
 		(net 1)
 		(net_name "GND")
 		(layer "F.Cu")
-		(uuid "12341d34-f412-4c79-8fb7-abc006f875a9")
+		(uuid "2460cd50-7fca-44c6-95f4-148eaa699b4a")
 		(name "$teardrop_padvia$")
-		(hatch full 0.1)
+		(hatch none 0.1)
 		(priority 30000)
 		(attr
 			(teardrop
@@ -12588,10 +12591,7 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 144.536507 95.279966) (xy 144.537069 95.281321) (xy 144.825151 96.122522) (xy 144.82571 96.127605)
-				(xy 144.777156 96.564592) (xy 144.772837 96.572436) (xy 144.765528 96.575) (xy 144.286472 96.575)
-				(xy 144.278199 96.571573) (xy 144.274844 96.564592) (xy 144.226289 96.127605) (xy 144.226847 96.122524)
-				(xy 144.514931 95.28132) (xy 144.520854 95.274605) (xy 144.529791 95.274043)
+				(xy 144.276 96.575) (xy 144.776 96.575) (xy 144.826 96.125) (xy 144.526 95.249) (xy 144.226 96.125)
 			)
 		)
 	)
